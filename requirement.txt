@@ -26,4 +26,3 @@ urllib3==1.26.3
 wasabi==0.8.1
 Werkzeug==1.0.1
 zipp==3.4.0
-python==3.7.9
