@@ -1,0 +1,97 @@
+
+  body{
+    margin: 3%;
+    background:-webkit-linear-gradient(top left,rgb(59, 59, 59),rgb(0, 0, 0));
+  }
+
+  .fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 30px;
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 35%;
+  }
+
+  .fa:hover {
+    color: rgb(0, 0, 0); 
+    background: #6fec09; 
+    box-shadow: 0 0 50px #6fec09; 
+
+}
+
+  .fa-linkedin{
+    background: black;
+    color: rgb(104, 190, 18);
+  }
+  .fa-github{
+    background: black;
+    color: rgb(104, 190, 18);
+  }
+  .fa-google{
+    background: black;
+    color: rgb(104, 190, 18);
+  }
+
+  h3{
+    color: cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  }
+  #btn1{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: rgb(85, 0, 0);
+
+  }
+  #btn1:hover{
+    color: rgb(255, 255, 255); 
+    background: #c40101; 
+    box-shadow: 0 0 50px #c40101; 
+  }
+
+  #btn2{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: rgb(113, 180, 57);
+
+  }
+  #btn2:hover{
+    border-radius: 10px;
+    color: rgb(0, 0, 0); 
+    background: #49c401; 
+    box-shadow: 0 0 50px #49c401; 
+  }
+
+  .text{
+    margin: auto;
+    border-color: yellowgreen ;
+    border-style: dotted;
+    background: transparent;
+    color: wheat;
+  }
+.text ::placeholder{
+  color: azure;
+  opacity: 70%;
+}
+.font{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

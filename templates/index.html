@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='Stylesheet//style.css')}}">
+    <title>Synopser</title>
+</head>
+
+<body>
+    <img src="{{url_for('static',filename='SynopserLogo.png')}}" align="middle">
+    <br>
+    <br><br><br>
+    <div class="icon">
+    <a href="https://www.linkedin.com/in/arshdeep-singh-a415761a1/" title="Linkedin" target="_blank" class="fa fa-linkedin"></a>
+    <a href="mailto:arsh160100@gmail.com" title="Email" target="_blank"class="fa fa-google"> </a>
+    <a href="https://github.com/arshdeepsingh2267" title="GitHub" target="_blank" class="fa fa-github"></a>
+    </div>
+    <br><br><br>
+    <h3><p>Synopser helps you to obtain a summary from a big and lengthy piece of text.
+    Synopser lets you reduce your text to a small and meaningful summary for free, within seconds. It can be helpful in notes making,
+     open book tests, as well as readers can save their time by getting a summary of their lengthy paragraphs.</p></h3>
+    <br><br><br>
+    <form id="form" action="{{url_for('Summarize')}}" method="post">
+        <h3>Original Text:</h3>
+        <textarea class="text" rows="12" cols="55" name="rawtext" placeholder="Enter text here!" required="required"></textarea>
+        <br><br>
+        <button id="btn1" type="reset">Clear</button>
+        <button id="btn2" type="submit ">Summarize</button><br>
+    </form>
+
+    <h3> Summarized Text:</h3>
+    <textarea class="text" rows="12" cols="55" name="summarytext">{{ summary }}</textarea>
+</body>
+
+
+
+</html>
